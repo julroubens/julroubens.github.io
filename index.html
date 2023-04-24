@@ -650,20 +650,20 @@
                 <div class="row">
                     <form>
                         <div class="col-md-4">
-                            <input class="form-control" type="text" placeholder="Name" required>
+                            <input class="form-control" type="text" placeholder="Name" required id="name">
                         </div>
                         <div class="col-md-4">
-                            <input class="form-control" type="email" placeholder="Email" required>
+                            <input class="form-control" type="email" placeholder="Email" required id="email">
                         </div>
                         <div class="col-md-4">
-                            <input class="form-control" type="text" placeholder="Subject" required>
+                            <input class="form-control" type="text" placeholder="Subject" required id="subject">
                         </div>
                         <div class="col-sm-12">
-                            <textarea class="form-control" placeholder="Your Message"  required></textarea>
+                            <textarea class="form-control" placeholder="Your Message"  required id="message"></textarea>
                         </div>
 
                         <div class="col-sm-12">
-                            <button class="btn btn-inverted" onclick="sendEmail()">Send Message</button>
+                            <button class="btn btn-inverted" type="button" onclick="sendEmail()">Send Message</button>
                         </div>  
                     </form>
                 </div>
